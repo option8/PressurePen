@@ -1,0 +1,72 @@
+U1 "8DIL" "8DIL"
+LED1 "LED" "LEDT175"
+R1 "R" "DISC04"
+R3 "R" "DISC04"
+R4 "R" "DISC04"
+R5 "R" "DISC04"
+R6 "R" "DISC04"
+C1 "C" "DISC03"
+Sen1 "Sensor_rs3" "Sensor_rs2"
+BatLoop1 "Bat_loop" "bat_loop"
+BatLoop2 "Bat_loop" "bat_loop"
+SW1 "SW" "sty_sw"
+PL1 "3WP" "3"
+GND "100-101" "TESTLOOP-LARGE"
+CJ1 "4COND" "4COND"
+
+Net "GND"
+LED1.1
+U1.1
+C1.1
+BatLoop2.1
+R3.2
+R4.1
+GND.1
+PL1.1
+BatLoop2.2
+
+Net "N0002"
+U1.2
+U1.6
+R6.1
+C1.2
+
+Net "N0020"
+U1.7
+R6.2
+R1.2
+
+Net "N0024"
+BatLoop1.1
+SW1.2
+BatLoop1.2
+
+Net "N0025"
+LED1.2
+R5.1
+
+Net "Bat+"
+PL1.3
+SW1.5
+SW1.3
+
+Net "N0060"
+Sen1.1
+CJ1.1
+R3.1
+
+Net "3.3v"
+R5.2
+R1.1
+U1.4
+U1.8
+PL1.2
+
+Net "N0066"
+U1.3
+Sen1.2
+
+Net "N0090"
+CJ1.4
+R4.2
+
