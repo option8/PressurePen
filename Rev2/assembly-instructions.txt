@@ -1,0 +1,240 @@
+﻿
+Kit assembly instructions:
+
+Open package and check contents. See http://pressurepen.us/pages/instructions for updated parts list and errata to this document.
+
+Last edit: 10.24.2012
+
+
+
+
+
+
+1: Step-up board
+
+For the following steps, you will need:
+	soldering iron
+	solder (preferably lead-free)
+	
+Locate the header pins (3) and 1.5v-3.3v step-up board (1).
+
+
+
+
+With the flat side of the step-up board (the side with the OSHW logo) facing down, insert the short end of the header pins into the 3 holes.
+
+Using a third hand, alligator clip or hemostat, hold the pins in place and flip the board over. Solder the pins in place as shown.
+
+
+Set the step-up board aside.
+
+
+
+2: Battery clips
+
+For the following steps, you will need:
+	soldering iron
+	wire snips
+	needle-nosed pliers
+	
+Locate the battery spring. 
+
+With wire snips, cut the spring into two pieces as shown. You should be left with one spring with about one full loop, and a slightly longer spring.
+
+
+
+
+You will be working on both sides of the PCB during assembly. The side with the resistor locations printed on it will be referred to as the “resistor side”, the other side, with “AAA” printed on it will be the “battery side”.
+
+
+
+
+
+
+
+
+
+Looking at the “resistor” side of the board, thread the longer spring through the negative/ground holes. The negative end of the battery cutout is near the narrower end of the board. Repeat with the smaller spring and the positive end of the battery cutout. 
+
+Before you solder these in place, test your fit with a AAA battery (not included). It should fit snugly between the springs and be held there by the tension on them on the “battery” side of the board. It may be necessary to remove another loop of make some bends in the springs to fit. The battery will sit on top of the cutout, on the battery side of the board. Once you're happy with the fit, solder the springs in place.
+
+
+
+Turn the board over and clip any length of spring that pokes through. This may interfere with other components, or with assembly later.
+
+
+3: Resistors
+
+For the following steps, you will need:
+	soldering iron
+	wire snips
+	alligator clips, hemostat, "third hand"
+	tape
+	double-sided tape
+
+Locate the five resistors in your kit. You should have:
+R1 10kΩ – brown-black-orange
+R3 100Ω – brown-black-brown
+R4 2.2kΩ – red-red-red
+R5 8.2kΩ – grey-red-red*
+R6 100kΩ – brown-black-yellow
+(on the Rev2 board, there is no R2)
+
+Bend the leads on the resistor, and thread them through the hole, so the body of the resistor is snug against the resistor side of the board. There is no polarity to these, so they can go in either direction. It helps to bend the leads outward again once you thread them through the hole, to hold the resistor in place while you solder it from the other side of the board.
+
+Solder the leads to the board. Snip the extra length off. Save one of the leads for a later step. The others can be discarded.
+
+Repeat with all five resistors.
+
+
+* The 8.2kΩ resistor connects in-line with the LED. This reduces the brightness of the LED and its drain on the battery. If you desire a brighter indicator, you can replace the 8.2kΩ resistor with one of a smaller value.
+4: Capacitor
+
+Locate the capacitor in your kit. It's the small, blue thing that's not a resistor and not an LED.
+
+As with the resistors, bend the leads of the capacitor to fit through the holes in the board and solder in place. Again, this capacitor has no polarity, so it can go in either direction.
+
+
+
+
+
+5: LED
+
+Locate the LED in your kit. LEDs have a specific polarity, so notice the length of the leads. The shorter leg corresponds with a flat spot on the side of the LED base. The shorter leg and flat side should line up with the flat side of the LED label on the board. Thread the legs through and double-check that the flat side of the LED lines up with the flat side of the label. The LED should also be snug to the board itself, or it may interfere with the shell when assembled.
+
+Solder the leads to the board. Snip off the extra length and discard.
+
+
+
+
+
+6: Switch
+
+Locate the switch in your kit.
+
+The switch will only fit on the board in one direction. On the Rev2 board, there will be seven holes, though the switch only needs five. The leads are short, so you may need to tape or clip the switch in place on the board while you solder the leads to the board from the battery side. The switch should also be snug to the board itself, or it may interfere with the shell when assembled.
+
+Solder the five leads to the board. Be sure that these joints are solid, as the switch will be taking some mechanical stress from turning the PressurePen on and off.
+
+
+
+
+
+7: 555 timer chip
+
+Locate the 555 Integrated Circuit (IC) in your kit.
+
+Notice that there's a small dot in one corner of the IC. This corresponds to pin #1. This dot should be on the same end of the IC as the notch in the printed diagram on the circuit board. Line up the dot and the notch and push the eight leads through the board. You may need to squeeze or bend the leads on the chip to fit through.
+
+Before you solder, check to be sure the dot on the IC is nearest the wider end of the PressurePen board.
+
+Once in place, you may again need to tape or clip the IC to the board to solder from the other side.
+
+Solder the eight leads in place.
+
+
+
+
+8: Audio jack
+
+Locate the audio jack in your kit. 
+
+Turn over the circuit board. You should now be looking at the battery side. At the wide end of the board, there is a small notch and seven holes marked CJ1. This will line up with the barrel of the audio jack, its four leads and small plastic posts. The jack should only fit one way on the board, the round part of the barrel sitting in the notch on the board.
+
+Again, you may need to tape or clip the audio jack to the board to solder the leads from the other side. Be sure to make the jack snug to the board, or it may interfere with the fit of the plastic shell later.
+
+Solder the four leads in place. Be sure that these joints are solid, as the jack will be taking some mechanical stress from plugging and unplugging the cable.
+
+
+
+
+9: Step-up board 
+
+Retrieve the 1.5v-3.3v step-up board you soldered header pins onto earlier. From the battery side of the PressurePen board, insert the three header pins into the holes marked "PL1". The red step-up board will "float" over the leads you soldered for the 555 chip, but should sit as close as possible to prevent interfering with the shell later.
+
+Again, you may need to tape or clip the step-up board to the PressurePen board to solder the leads from the other side.
+
+Solder the three leads from the other side.
+
+
+
+At this point, you can test the board and your assembly by inserting an AAA battery between the spring leads you soldered earlier and flipping the switch to "on" - switch toward the LED. The LED should light up, indicating that at least some of your connections are working. Don't worry if the LED is dim – this is designed to maximize the battery life of the PressurePen. If you desire a brighter LED, see the alternate instructions above.
+
+
+
+10: Ground wire
+
+Locate one of the resistor or LED leads you set aside earlier in step 3. With the battery side of the board facing you, insert the lead into the small hole marked “GND” near the sensor end of the board. Solder the lead in place, so that a length of the wire extends above the board.
+
+
+
+
+
+11: Force-sensitive resistor
+
+Locate the force-sensitive resistor FSR from your kit. This looks like a small plastic ribbon with a circle on one end and two small leads on the other.
+
+The FSR is fairly delicate, so be careful when handling it not to crimp or bend it too much. Being made of plastic, it is also liable to melt if you apply too much heat. For this reason, it's best to use an alligator clip or hemostat clipped across the ribbon where the leads are attached, to act as a heat sink as well as hold the FSR in place while soldering.
+
+From the battery side of the board, insert the two leads of the FSR into the two holes marked "Sen1". Acting quickly so as not to melt the plastic of the FSR, solder the leads in place from the other side of the board. The sensor should extend up from the battery side of the board as shown. It doesn't matter which direction the sensor itself faces, since it measures force from both sides.
+
+
+
+
+
+From this point on, you will need your PressurePen plastic shell. If you haven't already, you can order one from Shapeways - http://www.shapeways.com/shops/pressurepen - or fire up a 3D printer and download the STL files to print your own from Thingiverse - http://thingiverse.com/option8/
+11: Assembly
+
+For the following steps, you will need:
+	PressurePen plastic shell*
+	double-sided tape
+	Torx T5 screwdriver
+
+Place the board in the back half of the shell – the half with cutouts for the switch and LED – with the battery side facing up. The switch and LED should thread through the holes in the shell. If they don't go through smoothly, you may need to sand or file the openings for a clean fit.
+
+With a T5 screwdriver, fasten the board to the shell with the three screws.
+
+Cut a small strip of double-sided tape. This should be the thin, transparent type of tape, not foam tape. Place the tape either inside the indentation for the sensor in the tip of the shell, or on the sensor itself. Carefully bend the FSR over so that the round end fits into the indention in the tip of the shell as shown. Press the sensor firmly into the indent, making sure that the sensor is centered in its housing. Carefully fold or trim the excess tape out of the way.
+
+
+
+Locate the small foam disc in your kit. Fit this over the sensor in the cavity in the tip of the shell. Press it down firmly, to press the sensor into its housing and the tape applied earlier.
+
+Bend the grounding wire – the metal lead soldered into the GND hole – toward the stylus tip so that it threads through the small gap in the wall. Press the wire firmly into the foam disc to help keep the disc in place and ground the tip assembly. Cut or bend excess length of the wire out of the way so that it doesn't interfere with the sensor. 
+
+
+Carefully bend the base of the sensor down parallel with the board toward the battery, as shown. This will ensure that the sensor doesn't interfere with the shell once it is assembled.
+
+12: Assemble the conductive MicroStylus tip.
+
+The MicroStylus tip should have a small o-ring around the shaft, secured in an indent. If the o-ring has migrated, move it back into place. The MicroStylus fits snugly into the stylus insert. There may be some resistance, so press firmly. The stylus tip and insert should snap together, securing the tip in place.
+
+
+
+
+
+
+
+
+
+
+
+
+
+The stylus insert should have an o-ring around it, kept in place by friction and not in an indent. Snap the assembled stylus tip into the shell and adjust the o-ring so that the tip is secured inside the stylus housing, and the end is just against the sensor.
+
+Depending on the source of your printed shell, you may need to sand or file the inside of the tip housing so that the MicroStylus tip moves freely. This is essential to the stylus working properly. Fine grit sandpaper works well, rolled into a tube and worked back and forth in the cutout.
+
+
+
+
+
+
+13: Final assembly
+
+Insert a single AAA battery between the contacts.
+
+Snap the two halves of the shell together, back end first. The front half of the shell has a hole that fits around the audio jack on the board, and holds the back end of the PressurePen together. Wrap the rubber retaining band around the tip end and fit it into the indent. Your PressurePen should be ready to use.
+
+
+
